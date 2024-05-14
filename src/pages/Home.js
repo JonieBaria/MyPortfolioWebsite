@@ -14,7 +14,8 @@ function Home() {
         <div className="prompt">
           <p>
             {" "}
-            A Software/Web developer with a passion for learning and creating.
+            A Software/Web developer with a passion for learning new
+            technologies and building creative ideas.
           </p>
           <a href="https://github.com/JonieBaria">
             <GithubIcon />
