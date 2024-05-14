@@ -1,19 +1,22 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-function ProjectItem({ image, name, id }) {
+function ProjectItemMain({ name, image }) {
   const navigate = useNavigate();
   return (
     <div
       className="projectItem"
       onClick={() => {
-        navigate("/projects/" + id);
+        navigate("/main-project/");
       }}
     >
-      <div style={{ backgroundImage: `url(${image})` }} className="bgImage" />
+      <div
+        style={{ backgroundImage: `url(${image[0]})` }}
+        className="bgImage"
+      />
       <h1>{name}</h1>
     </div>
   );
 }
 
-export default ProjectItem;
+export default ProjectItemMain;
