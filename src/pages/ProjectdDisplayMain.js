@@ -1,7 +1,6 @@
 import React from "react";
 import GithubIcon from "@material-ui/icons/GitHub";
 import YouTubeIcon from "@material-ui/icons/YouTube";
-import LanguageIcon from "@material-ui/icons/Language";
 import { ProjectMain } from "../helpers/ProjectMain";
 
 function ProjectdDisplayMain() {
