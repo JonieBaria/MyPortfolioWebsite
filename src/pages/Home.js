@@ -32,13 +32,14 @@ function Home() {
             <h2>Front-End</h2>
             <span>
               ReactJS, NextJS, HTML, CSS, Bootstrap, MaterialUI, TailwindCSS,
-              StyledComponents
+              StyledComponents, AntD
             </span>
           </li>
           <li className="item">
             <h2>Back-End</h2>
             <span>
-              NodeJS, ExpressJS, GraphQL, MySQL, MongoDB, AWS S3, Django
+              NodeJS, ExpressJS, GraphQL, MySQL, MongoDB, Cloud Computing-AWS,
+              Django
             </span>
           </li>
           <li className="item">
